@@ -1,6 +1,6 @@
 const newItemForm = document.getElementById('newItemForm')
 const shoppingList = document.getElementById('shoppingList')
-const itemsInList = shoppingList.getElementsByTagName('li')
+// const itemsInList = shoppingList.getElementsByTagName('li')
 const item = document.getElementById('item')
 
 
