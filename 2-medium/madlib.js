@@ -32,7 +32,6 @@ inputList.forEach((item) => {
   p.append(br)
   p.append(input)
   p.append(br)  
-  p.after(formGroup)
   insertBefore(p, madLibForm.lastElementChild)
 })
 
