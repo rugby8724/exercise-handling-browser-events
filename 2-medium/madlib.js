@@ -7,16 +7,6 @@ const restartButton = document.getElementById('restart')
 madLibForm.addEventListener('submit', fillBlanks)
 
 
-// madLibForm.addEventListener('submit', function(event) {
-//   event.preventDefault();
-
-//   inputList.forEach((item) =>{
-//     const storyItem = document.getElementsByClassName(item)
-//     const input = document.getElementById(item)
-//     storyItem.innerText = input.value
-//   })
-// })
-
 function insertBefore(newNode, existingNode) {
   existingNode.parentNode.insertBefore(newNode, existingNode);
 }
