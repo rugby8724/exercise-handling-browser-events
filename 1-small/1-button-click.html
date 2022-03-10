@@ -9,7 +9,13 @@
   <!-- HTML goes here -->
 
   <script>
+    const body = document.body
     const pressButton = document.createElement('button')
+    pressButton.innerText = 'Press Me'
+
+    body.append(pressButton)
+
+
     pressButton.addEventListener('click', pressed)
 
     function pressed(){

@@ -13,7 +13,18 @@
   </div>
 
   <script>
-    // JavaScript goes here
+    window.addEventListener('scroll', () => {
+      console.log('You Change the size of the Window!')
+    })
+
+ 
+    let timeout;
+    const delay = 100; 
+    window.addEventListener('resize', () => {
+      timeout = setTimeout(() => {
+        console.log('You Change the size of the Window on a debounced callback!')
+      }, delay)
+    })
 
   </script>
 </body>

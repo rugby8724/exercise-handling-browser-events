@@ -9,7 +9,19 @@
   <!-- HTML goes here -->
 
   <script>
-    // JavaScript goes here
+    const body = document.body
+    const leftButton = document.createElement('button')
+
+    leftButton.innerText = 'Left Click'
+    body.append(leftButton)
+
+    leftButton.addEventListener('mouseup', leftClicked)
+
+    function leftClicked(e) {
+      if (e.button == 0) {
+        console.log('Left Button Clicked')
+      }
+    }
 
   </script>
 </body>
